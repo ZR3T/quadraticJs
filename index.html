@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset='UTF-8'>
+        <script src='script.js'></script>
+    </head>
+    <body>
+        <h1>Input integer values for a, b, and c</h1>
+        a<input id='a' type='number' step="0.01" min="-10" max="10" onclick='this.select()'> x&sup2 + b<input id='b' type='number' min="-10" max="10" onclick='this.select()'>x + c<input id='c' type='number' min="-10" max="10" onclick='this.select()'><br><br>
+        
+        <button onclick='evalu8()' id='inpoot'>Evaluate</button>
+        
+        <h4>Axis of Symmetry</h4><p id='aos'></p>
+        <h4>Vertex</h4><p id='vTex'></p><br>
+        <h4>Discriminant</h4><p id='dScrim'></p><br>
+        <h4>Type of Roots</h4><p id='tor'></p><br>
+        <h4>Root Solutions</h4><p id='root1'></p><p id='root2'></p>
+        <br>
+        
+        <canvas id="myCanvas" width="1000" height="1000" style="border:1px solid #c3c3c3;"></canvas>
+        <br>
+        
+        <button onclick='graph()' id='gButt'>Graph</button>
+
+    </body>
+</html>
